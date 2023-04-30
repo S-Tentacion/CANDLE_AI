@@ -13,9 +13,8 @@ Then it will show the actual result. Currently, this extension is not supported 
 Clone and install the dependencies for `Candle AI` locally:
 
 ```bash 
-  git clone https://github.com/S-Tentacion/MOVIE_WIRE.git
-  cd MOVIE_WIRE
-  npm install
+  git clone https://github.com/S-Tentacion/CANDLE_AI.git
+  cd CANDLE_AI
 ```
 
 ## Authors
