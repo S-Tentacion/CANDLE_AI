@@ -2,7 +2,7 @@
   "name": "Candle AI - Powered by ChatGPT",
   "description": "Use Candle AI for quick task, it help his masters",
   "author": "Shubham Kumar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "host_permissions": ["<all_urls>"],
   "action": {
