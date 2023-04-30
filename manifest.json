@@ -1,0 +1,26 @@
+{
+  "name": "Candle AI - Powered by ChatGPT",
+  "description": "Use Candle AI for quick task, it help his masters",
+  "author": "Shubham Kumar",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Candle AI",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "scented-candle.png"
+    }
+  },
+  "icons": {
+    "128": "scented-candle.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "runAt": "document_end",
+      "js": ["script.js"],
+      "all_frames": true
+    }
+  ]
+}
