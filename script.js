@@ -1,6 +1,6 @@
 const makeChatGPTCall = async (node, text) => {
   try {
-    const apiKey = "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";
+    const apiKey = "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";
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", `Bearer ${apiKey}`);
